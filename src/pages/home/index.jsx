@@ -4,10 +4,12 @@ import Nav from './partials/navbarr';
 
 const Home = () => {
     return (
-        <div>
+        <>
+        <div className=''>
             <Nav></Nav>
             <Hero></Hero>
         </div>
+        </>
     );
 }; 
 

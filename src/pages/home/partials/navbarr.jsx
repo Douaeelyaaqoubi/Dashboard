@@ -3,17 +3,17 @@ const Navbarr = () => {
     return (
         <>
         <div>
-            <div className="bg-[#a3a9c9] flex justify-between px-[10vw] py-4 items-center text-[#ffffff]  ">
+            <div className="bg-[#3d141b] flex justify-between px-[10vw] py-4 items-center text-[#ffffff]  ">
                 <h1 className="text-3xl font-light tracking-[0.15em] Space Grotesk">
                     Study_Hup
                 </h1>
 
                 <div className=" items-center flex gap-8 cursor-pointer  text-[10px] tracking-[0.35em] uppercase  font-light ">
-                    <p  className="hover:text-xl hover:text-[#ffff]">Home</p>
-                    <p className="hover:text-xl hover:text-[#ffff]">Cours</p>
-                    <p className="hover:text-xl hover:text-[#ffff]">Programe</p>
-                    <p className="hover:text-xl hover:text-[#ffff]">Contact</p>
-                    <p className="hover:text-xl hover:text-[#ffff]">Help</p>
+                    <p  className=" hover:text-amber-50">Home</p>
+                    <p className=" hover:text-amber-50">Cours</p>
+                    <p className=" hover:text-amber-50">Programe</p>
+                    <p className=" hover:text-amber-50">Contact</p>
+                    <p className=" hover:text-amber-50">Help</p>
                 </div>
 
                 <div className="flex gap-2">
